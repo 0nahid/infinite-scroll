@@ -4,9 +4,7 @@ const loader = document.getElementById('loader');
 let photosArray = [];
 
 // Unsplash API
-const count = 10;
-const apiKey = 'iWT3JO3F0MrOS_fXx9eKx_kPSiwayM9EOy7zy5SHzno';
-const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
+const apiUrl = `https://api.unsplash.com/photos/random/?client_id=HB_ANl0sX9XLrQpYAT6NlIEDpdyD0SCv1qWLynMGiVI&count=10`;
 
 // Helper Function to Set Attributes on DOM Elements
 function setAttributes(element, attributes) {
