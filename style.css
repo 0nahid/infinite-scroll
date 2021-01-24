@@ -19,6 +19,12 @@ h1 {
   letter-spacing: 3px;
 }
 
+/* developer name */
+.dev a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
 /* Loader */
 .loader {
   position: fixed;
